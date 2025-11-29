@@ -22,6 +22,6 @@ public class Client {
     @Column(length = 150, nullable = false, unique = true)
     private String email;
 
-    @Column(length = 15, nullable = false, unique = true)
+    @Column(length = 11, nullable = false, unique = true)
     private String phone;
 }
